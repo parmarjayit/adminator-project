@@ -9,6 +9,15 @@
     max-width: 1320px;
     margin: auto;
 }
+.part1{
+    width: 100%;
+}
+.part2{
+    border: 1px solid red;
+}
+.main{
+    display: flex;
+}
 .d-flex{
     display: flex;
     flex-wrap: wrap;
@@ -34,22 +43,23 @@
 .p-20{
     padding: 20px;
 }
-.add{
-    font-size: 18px;
+.line .add{
+    font-size: 20px;
     color: rgba(0, 0, 0, 0.849);
     font-weight: 600;
+    padding: 13px;
+    display: block;
     text-decoration: none;
     /* border: 1px solid red; */
 }
 .box img{
     /* border: 1px solid red; */
- 
 }
 .text1 a {
   text-decoration: none;
 }
 .fa-bars{
-    color: rgba(0, 0, 0, 0.418);
+    color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
 }
 .fa-bars:hover{
@@ -57,11 +67,10 @@
 }
 .text1{
     /* border: 1px solid red; */
-    padding: 20px;
+    padding: 22px;
 }
 .btn{
     border: none;
-    
 }
 .fa-magnifying-glass{
     padding-left: 15px;
@@ -77,7 +86,6 @@
 }
 .text2 a{
     text-decoration: none;
-   
 }
 .justify-end{
     justify-content: end;
@@ -98,23 +106,13 @@
     color: black;
 }
 .sidebar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width:300px;
-    /* border: 1px solid red; */
-}
-.sidebar1{
-    border: 3px solid green;
-    padding: 35px 0px 0px 10px;
+    border: 1px solid gainsboro;
     width: 300px;
+    transition: all 0.5s;
+    height: 100vh;
 }
 .header{
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 84.5%;
+    width: 100%;
 }
 .jay img{
     width: 35px;
@@ -123,20 +121,40 @@
     border-radius: 50px;
 }
 .text3{
-    border: 1px solid black;
-    padding: 10px;
-    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 5px 15px;
+    align-items: center;
+}
+.dash{
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    padding-top: 35px;
+}
+.textadd{
+    display: flex;
+    padding: 5.4px 15px;
+    border-bottom: 1px solid gainsboro;
+    align-items: center;
 }
 .icon{
-    width: 50px;
-    border: 1px solid red;
+    width: 35px;
+    height: 35px;
+    padding-right:30px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .ri-home-4-line{
     color: #2196f3;
     font-size: 20px;
 }
 .line{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    width: 100%;
 }
 .line a{
     text-decoration: none;
@@ -149,6 +167,10 @@
 .ri-mail-line{
     color: #795548;
     font-size:18px
+}
+.fa-share-from-square{
+    color:#2196f3;
+    font-size: 18px;
 }
 .ri-calendar-line{
     color: #ff5722;
@@ -185,4 +207,65 @@
 .fa-list{
     color:#009688;
     font-size:18px    
+}
+.hideside{
+    width: 70px !important;
+}
+.sidebar:hover{
+    width: 300px !important;
+}
+.sidebar:hover .line{
+    display: block !important;
+}
+.part3{
+    border: 1px solid gainsboro;
+}
+.text4{
+    /* border: 1px solid black; */
+    font-size: 16px;
+    font-weight: 500;
+}
+.graph{
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.ten{
+    border-radius: 15px;
+   padding: 3px 8px 5px 8px;
+   background-color: #dce9dc;
+   color: #4caf50;
+}
+.seven{
+    border-radius: 15px;
+   padding: 3px 8px 5px 8px;
+   background-color: rgb(238, 221, 221);
+   color: rgb(245, 21, 21);
+}
+.twel{
+    border-radius: 15px;
+   padding: 3px 8px 5px 8px;
+   background-color: rgb(241, 218, 241);
+   color: purple;
+}
+.three{
+    border-radius: 15px;
+   padding: 3px 8px 5px 8px;
+   background-color: rgb(227, 240, 245);
+   color: rgb(45, 154, 197);
+}
+.ri-bar-chart-grouped-line{
+    color:#4caf4fe1;
+    font-size: 40px;
+}
+#purple{
+    color: #8e6bca;
+    font-size: 40px;
+}
+#blue{
+    color: rgb(41, 175, 228);
+    font-size: 40px;
+}
+#red{
+    color: rgb(226, 99, 99);
+    font-size: 40px;
 }
