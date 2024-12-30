@@ -22,14 +22,17 @@
 .d-flex{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
 }
 .d-flex1{
     display: flex;
     flex-wrap: wrap;
    justify-content: space-between;
     align-items: center;
+}
+.d-flex2{
+    display: flex;
 }
 .border{
     border: 1px solid red;
@@ -49,6 +52,9 @@
 }
 .pt-15{
     padding-top: 25px;
+}
+.pl-10{
+    padding-right: 10px;
 }
 .line .add{
     font-size: 20px;
@@ -153,7 +159,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .ri-home-4-line{
     color: #2196f3;
@@ -238,7 +243,7 @@
 }
 .ten{
     border-radius: 15px;
-   padding: 3px 8px 5px 8px;
+   padding: 5px 8px 5px 8px;
    background-color: #dce9dc;
    color: #4caf50;
 }
@@ -366,7 +371,10 @@
 }
 .text7{
     /* border: 1px solid red ; */
-   padding: 25px;
+   padding: 20px;
+   align-items: center;
+   justify-content: center;
+   /* text-align: center; */
 }
 .threepart{
     border: 3px solid red;
@@ -411,4 +419,28 @@
     font-size: 16px;
     font-weight: 500;
     padding-top: 5px;
+}
+.newpurchase{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+.text8{
+    border: 1px solid green;
+}
+.text8 img{
+    width: 100%;
+    height: 300px;
+}
+.text9{
+    border: 1px solid black;
+    text-align: center;
+}
+.ri-corner-right-up-fill{
+    color: #4caf50;
+    font-size: 18px;
+}
+.ri-corner-right-down-fill{
+    color: red;
+    font-size: 18px;
 }
