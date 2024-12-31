@@ -6,6 +6,9 @@
    color: #72777a;
    font-family: Roboto, -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
+.bg-gray{
+    background-color: gainsboro;
+}
 .container{
     max-width: 1320px;
     margin: auto;
@@ -33,6 +36,7 @@
 }
 .d-flex2{
     display: flex;
+    flex-wrap: wrap;
 }
 .border{
     border: 1px solid red;
@@ -122,7 +126,10 @@
     border: 1px solid gainsboro;
     width: 300px;
     transition: all 0.5s;
-    height: 100vh;
+    height: 200vh;
+}
+.main{
+    /* border: 1px solid black; */
 }
 .header{
     width: 100%;
@@ -330,10 +337,6 @@
     border: 3px solid #eaeef3;
     width: 50%;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 .newpart2{
     border: 1px solid gainsboro;
@@ -426,15 +429,19 @@
     padding-top: 5px;
 }
 .text8{
-    border: 1px solid green;
+    border: 1px solid gainsboro;
 }
 .text8 img{
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 .text9{
-    border: 1px solid black;
-    text-align: center;
+    border: 1px solid gainsboro;
+    border-top: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
 .ri-corner-right-up-fill{
     color: #4caf50;
@@ -443,4 +450,86 @@
 .ri-corner-right-down-fill{
     color: red;
     font-size: 18px;
+}
+.apply{
+   font-size: 12px;
+   font-weight: 500;
+   color: rgba(156, 155, 155, 0.808);
+}
+.line1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(87, 85, 85);
+}
+.text10{
+    border: 1px solid gainsboro;
+    border-bottom: none;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.monthly{
+    padding: 20px 0px 0px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.text11{
+    border: 1px solid gainsboro;
+    border-top: none;
+    padding-left: 35px;
+}
+.row{
+    display: flex;
+    /* border: 1px solid green; */
+    padding: 10px 0px 10px 0px;
+}
+.row1{
+    display: flex;
+    /* border: 1px solid green; */
+    padding: 10px 0px 10px 0px;
+}
+.john{
+    font-size: 14px;
+    color: black;
+}
+.days{
+   background-color: rgb(24, 153, 24);
+   font-size: 13px;
+   color: white;
+   border-radius: 20px;
+   padding: 3px 8px 3px 8px;
+}
+.minuts{
+    background-color: red;
+    font-size: 13px;
+    color: white;
+    border-radius: 20px;
+    padding: 3px 8px 3px 8px;
+}
+.important{
+    background-color: rgba(255, 255, 0, 0.815);
+    font-size: 13px;
+    color: rgb(177, 172, 172);
+    border-radius: 20px;
+    padding: 3px 8px 3px 8px;
+}
+.tomorrow{
+    background-color: rgb(56, 182, 231);
+    font-size: 13px;
+    color:white;
+    border-radius: 20px;
+    padding: 3px 8px 3px 8px;
+}
+.d-flex3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+.text12{
+    border: 1px solid red;
+}
+.line2{
+    
 }
