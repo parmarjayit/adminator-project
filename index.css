@@ -51,6 +51,9 @@
 .p-20{
     padding: 20px;
 }
+.p-30{
+    padding: 30px;
+}
 .pt{
     padding-top: 10px;
 }
@@ -531,5 +534,39 @@
     border: 1px solid red;
 }
 .line2{
-    
+    /* border: 1px solid red; */
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+}
+.line3{
+    /* border: 1px solid red; */
+    padding: 10px 0px 0px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+}
+.fa-cloud-rain{
+    color: rgb(243, 52, 52);
+    padding-left: 25px;
+}
+.month{
+    font-size: 15px;
+    font-weight: 500;
+    padding-right:20px;
+}
+.month1{
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 20px;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.space1{
+    display: flex;
+    justify-content: space-between;
 }
