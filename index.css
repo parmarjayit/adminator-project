@@ -531,7 +531,10 @@
     padding-right: 30px;
 }
 .text12{
-    border: 1px solid red;
+    border: 1px solid gainsboro;
+}
+.pl-10{
+    padding-left: 10px;
 }
 .line2{
     /* border: 1px solid red; */
@@ -548,8 +551,9 @@
     display: flex;
 }
 .fa-cloud-rain{
-    color: rgb(243, 52, 52);
-    padding-left: 25px;
+    color:orange;
+    font-size: 35px;
+    padding-left: 22px;
 }
 .month{
     font-size: 15px;
@@ -569,4 +573,116 @@
 .space1{
     display: flex;
     justify-content: space-between;
+}
+.grayborder{
+    /* border: 1px solid red; */
+    padding-left: 20px;
+}
+.grayborder1{
+    /* border: 1px solid red; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.line4{
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin-top: 30px;
+}
+.wind{
+    /* border: 1px solid green; */
+    font-size: 14px;
+    padding: 5px;
+}
+.km{
+    /* border: 1px solid red; */
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(102, 100, 100);
+    /* text-align: center;
+    align-items: center; */
+}
+.j-space{
+    border: 1px solid gainsboro;
+    justify-content: space-between;
+    display: flex;
+    border-left: none;
+    border-right: none;
+    /* text-align: center; */
+    align-items: center;
+}
+.j-space1{
+    /* border: 1px solid gainsboro; */
+    justify-content: space-between;
+    display: flex;
+    border-left: none;
+    border-right: none;
+    /* text-align: center; */
+    align-items: center;
+}
+.j-space2{
+    border: 1px solid gainsboro;
+    justify-content: space-between;
+    display: flex;
+    border-left: none;
+    border-right: none;
+    /* text-align: center; */
+    align-items: center;
+}
+.text14{
+    /* border: 1px solid gainsboro; */
+    border-top: none;
+    /* padding: 15px; */
+    display: flex;
+    padding-bottom: 20px;
+}
+.line5{
+    /* border: 1px solid green; */
+    padding: 0px 25px;
+}
+.week{
+    /* border: 1px solid black; */
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sevensup{
+    /* border: 1px solid black; */
+    padding-left: 15px;
+    padding-top: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.text13{
+    /* border: 1px solid red; */
+}
+.fa-cloud-sun{
+    color:orange;
+    font-size: 35px;
+    padding-left: 22px;
+}
+.ri-cloud-fill{
+    color:orange;
+    font-size: 35px;
+    padding-left: 22px;
+}
+.fa-cloud-rain{
+    color:orange;
+    font-size: 35px;
+    padding-left: 22px;
+}
+.fa-wind{
+    color:orange;
+    font-size: 35px;
+    padding-left: 22px;
+}
+.fa-cloud-showers-heavy{
+    color:orange;
+    font-size: 35px;
+    padding-left: 22px;
+}
+.fa-sun{
+    color:orange;
+    font-size: 35px;
+    padding-left: 22px;
 }
